@@ -3,6 +3,11 @@ import torch.nn as nn
 import torchvision
 import torchvision.transforms as transforms
 
+# To show the images using the pixels data:
+# Dim1  : image number.
+# Dim3-4: 28*28 pixels
+# plt.imshow(images[0, 0, :, :], cmap = 'Greys')
+
 
 # Device configuration
 device = torch.device('cuda' if torch.cuda.is_available() else 'cpu')
