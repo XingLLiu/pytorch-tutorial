@@ -6,6 +6,8 @@ import torchvision.transforms as transforms
 # To show the images using the pixels data:
 # Dim1  : image number.
 # Dim3-4: 28*28 pixels
+# 
+# import matplotlib.pyplot as plt
 # plt.imshow(images[0, 0, :, :], cmap = 'Greys')
 
 
